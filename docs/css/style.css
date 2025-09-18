@@ -31,7 +31,6 @@ h2{
 input{
     width: 35%;
     position: relative;
-    right: 2%;
 }
 
 ::placeholder {
