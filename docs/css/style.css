@@ -31,7 +31,10 @@ h2{
 input{
     width: 35%;
     position: relative;
-    left: 2%;
+}
+
+::placeholder {
+   text-align: center; 
 }
 
 
