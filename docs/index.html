@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href = "css/style.css">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>To-Do List</title>
+		<link rel="stylesheet" href="css/normalize.css">
+	</head>
+	<body>
+        <h1>To-Do List Organizer</h1>
+        <section class="topsection">
+            <label for="todo" id="todo"> So, what do you have to do today? </label>
+            <input type="text" placeholder="Enter your to-do item" id="submittask">
+            <label id="categorize">Categorize your item</label>
+        <div class="buttons">
+            <button class="dobut">Do</button>
+            <button class="delaybut">Delay</button>
+            <button class="delegatebut">Delegate</button>
+            <button class="disregardbut">Disregard</button>
+        </div>
+        </section>
+
+    <main class="boxes">
+        <section class="do">
+            <h2> Do Now </h2>
+            <div class="checklist">
+                <ul class="docheck" id="docheck" type="checklist">
+                </ul>
+            </div>
+
+            <div class="dosecbut">
+                <button class="clearchecked" id="clearchecked1">Clear Checked</button>
+                <button class="clearall" id="clearall1">Clear All</button>
+            </div>
+        </section>
+
+        <section class="delay">
+            <h2> Delay </h2>
+            <div class="checklist">
+                <ul class="delaycheck" id="delaycheck" type="checklist">
+                </ul>
+            </div>
+
+            <div class="delaysecbut">
+                <button class="clearchecked" id="clearchecked2">Clear Checked</button>
+                <button class="clearall" id="clearall2">Clear All</button>
+            </div>
+        </section>
+
+
+        <section class="delegate">
+            <h2> Delegate </h2>
+            <div class="checklist">
+                <ul class="delegatecheck" id="delegatecheck">
+                </ul>
+            </div>
+
+            <div class="delegatesecbut">
+                <button class="clearchecked" id="clearchecked3">Clear Checked</button>
+                <button class="clearall" id="clearall3">Clear All</button>
+            </div>
+        </section>
+
+
+        <section class="disregard">
+            <h2> Don't Do </h2>
+            <div class="checklist">
+                <ul class="disregardcheck" id="disregardcheck" type="checklist">
+                </ul>
+            </div>
+
+            <div class="disregardsecbut">
+                <button class="clearchecked" id="clearchecked4">Clear Checked</button>
+                <button class="clearall" id="clearall4">Clear All</button>
+            </div>
+        </section>
+
+        <button class="cleareverything" id="cleareverything">Clear List</button>
+    </main>
+
+
+
+    <script type="text/javascript" src="js/main.js"></script>
+	</body>
+	</html>
